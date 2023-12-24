@@ -102,7 +102,7 @@ impl HttpRequest {
 mod tests {
     use std::collections::HashMap;
 
-    use super::{Method, Version, HttpRequest, Resource};
+    use super::{HttpRequest, Method, Resource, Version};
 
     #[test]
     fn test_method_into() {
